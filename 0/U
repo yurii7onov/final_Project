@@ -1,0 +1,129 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet_1
+    {
+        type            fixedValue;
+        value           uniform (0 -5 0);
+    }
+
+    outlet_1
+    {
+        type            zeroGradient;
+    }
+
+    fixedWalls_1
+    {
+        type            noSlip;
+    }
+
+    frontAndBack_1
+    {
+        type            empty;
+    }
+
+    inlet_2
+    {
+        type            fixedValue;
+        value           uniform (0 -10 0);
+    }
+
+    outlet_2
+    {
+        type            zeroGradient;
+    }
+
+    fixedWalls_2
+    {
+        type            noSlip;
+    }
+
+    frontAndBack_2
+    {
+        type            empty;
+    }
+
+    inlet_3
+    {
+        type            fixedValue;
+        value           uniform (0 -15 0);
+    }
+
+    outlet_3
+    {
+        type            zeroGradient;
+    }
+
+    fixedWalls_3
+    {
+        type            noSlip;
+    }
+
+    frontAndBack_3
+    {
+        type            empty;
+    }
+
+    inlet_4
+    {
+        type            fixedValue;
+        value           uniform (0 -10 0);
+    }
+
+    outlet_4
+    {
+        type            zeroGradient;
+    }
+
+    fixedWalls_4
+    {
+        type            noSlip;
+    }
+
+    frontAndBack_4
+    {
+        type            empty;
+    }
+
+    inlet_5
+    {
+        type            fixedValue;
+        value           uniform (0 -5 0);
+    }
+
+    outlet_5
+    {
+        type            zeroGradient;
+    }
+
+    fixedWalls_5
+    {
+        type            noSlip;
+    }
+
+    frontAndBack_5
+    {
+        type            empty;
+    }
+}
+
+// ************************************************************************* //

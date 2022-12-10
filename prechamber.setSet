@@ -1,0 +1,9 @@
+# an empty cellSet named "newWall" is defined
+cellSet newWall new
+# it is inverted. So now it contains all cells of the mesh 
+cellSet newWall invert
+
+# the cells within the following boxes are deleted from the set:
+cellSet newWall delete boxToCell (0.000 -0.017 -1) (0.013  -0.016 1)
+cellSet newWall delete boxToCell (0.012 -0.017 -1) (0.013  -0.012 1)
+cellSet newWall delete boxToCell (0.012 -0.011 -1) (0.013   0.000 1)

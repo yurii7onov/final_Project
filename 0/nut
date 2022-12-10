@@ -1,0 +1,131 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet_1
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet_1
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    fixedWalls_1
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+
+    frontAndBack_1
+    {
+        type            empty;
+    }
+
+    inlet_2
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet_2
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    fixedWalls_2
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+
+    frontAndBack_2
+    {
+        type            empty;
+    }
+
+    inlet_3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet_3
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    fixedWalls_3
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+
+    frontAndBack_3
+    {
+        type            empty;
+    }
+
+    inlet_4
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet_4
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    fixedWalls_4
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+
+    frontAndBack_4
+    {
+        type            empty;
+    }
+
+    inlet_5
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    outlet_5
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+    fixedWalls_5
+    {
+        type            nutkWallFunction;
+        value           uniform 0;
+    }
+
+    frontAndBack_5
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //
