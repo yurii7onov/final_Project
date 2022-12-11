@@ -26,17 +26,17 @@ boundaryField
         value           uniform (0 -5 0);
     }
 
-    outlet_1
+    outlet
     {
         type            zeroGradient;
     }
 
-    fixedWalls_1
+    fixedWalls
     {
         type            noSlip;
     }
 
-    frontAndBack_1
+    frontAndBack
     {
         type            empty;
     }
@@ -47,40 +47,10 @@ boundaryField
         value           uniform (0 -10 0);
     }
 
-    outlet_2
-    {
-        type            zeroGradient;
-    }
-
-    fixedWalls_2
-    {
-        type            noSlip;
-    }
-
-    frontAndBack_2
-    {
-        type            empty;
-    }
-
     inlet_3
     {
         type            fixedValue;
         value           uniform (0 -15 0);
-    }
-
-    outlet_3
-    {
-        type            zeroGradient;
-    }
-
-    fixedWalls_3
-    {
-        type            noSlip;
-    }
-
-    frontAndBack_3
-    {
-        type            empty;
     }
 
     inlet_4
@@ -89,41 +59,12 @@ boundaryField
         value           uniform (0 -10 0);
     }
 
-    outlet_4
-    {
-        type            zeroGradient;
-    }
-
-    fixedWalls_4
-    {
-        type            noSlip;
-    }
-
-    frontAndBack_4
-    {
-        type            empty;
-    }
-
     inlet_5
     {
         type            fixedValue;
         value           uniform (0 -5 0);
     }
 
-    outlet_5
-    {
-        type            zeroGradient;
-    }
-
-    fixedWalls_5
-    {
-        type            noSlip;
-    }
-
-    frontAndBack_5
-    {
-        type            empty;
-    }
 }
 
 // ************************************************************************* //

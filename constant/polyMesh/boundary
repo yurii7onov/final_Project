@@ -15,137 +15,57 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-20
+8
 (
-    fixedWalls_1
+    fixedWalls
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          200;
-        startFace       19400;
+        nFaces          1400;
+        startFace       258600;
     }
-    frontAndBack_1
+    frontAndBack
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          4000;
-        startFace       19600;
+        nFaces          260000;
+        startFace       260000;
     }
     inlet_1
     {
         type            patch;
         nFaces          20;
-        startFace       23600;
-    }
-    outlet_1
-    {
-        type            patch;
-        nFaces          20;
-        startFace       23620;
-    }
-    fixedWalls_2
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          200;
-        startFace       23640;
-    }
-    frontAndBack_2
-    {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          4000;
-        startFace       23840;
+        startFace       520000;
     }
     inlet_2
     {
         type            patch;
         nFaces          20;
-        startFace       27840;
-    }
-    outlet_2
-    {
-        type            patch;
-        nFaces          20;
-        startFace       27860;
-    }
-    fixedWalls_3
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          200;
-        startFace       27880;
-    }
-    frontAndBack_3
-    {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          4000;
-        startFace       28080;
+        startFace       520020;
     }
     inlet_3
     {
         type            patch;
         nFaces          20;
-        startFace       32080;
-    }
-    outlet_3
-    {
-        type            patch;
-        nFaces          20;
-        startFace       32100;
-    }
-    fixedWalls_4
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          200;
-        startFace       32120;
-    }
-    frontAndBack_4
-    {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          4000;
-        startFace       32320;
+        startFace       520040;
     }
     inlet_4
     {
         type            patch;
         nFaces          20;
-        startFace       36320;
-    }
-    outlet_4
-    {
-        type            patch;
-        nFaces          20;
-        startFace       36340;
-    }
-    fixedWalls_5
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          200;
-        startFace       36360;
-    }
-    frontAndBack_5
-    {
-        type            empty;
-        inGroups        1(empty);
-        nFaces          4000;
-        startFace       36560;
+        startFace       520060;
     }
     inlet_5
     {
         type            patch;
         nFaces          20;
-        startFace       40560;
+        startFace       520080;
     }
-    outlet_5
+    outlet
     {
         type            patch;
-        nFaces          20;
-        startFace       40580;
+        nFaces          1300;
+        startFace       520100;
     }
 )
 

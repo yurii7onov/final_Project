@@ -1,0 +1,81 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       regIOobject;
+    location    "constant/polyMesh";
+    object      pointZones;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+10
+(
+mid_layer_1mid_layer_20CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_3mid_layer_41CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_5mid_layer_62CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_7mid_layer_83CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_9mid_layer_104CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_11mid_layer_125CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_13mid_layer_146CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_15mid_layer_167CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_17mid_layer_188CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+
+mid_layer_19mid_layer_209CutPointZone
+{
+    type pointZone;
+pointLabels     0();
+}
+)
+
+// ************************************************************************* //
