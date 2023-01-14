@@ -22,8 +22,9 @@ boundaryField
 {
     inlet_1
     {
-        type            fixedValue;
-        value           uniform (0 -5 0);
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -5 0);
     }
 
     outlet
@@ -43,28 +44,73 @@ boundaryField
 
     inlet_2
     {
-        type            fixedValue;
-        value           uniform (0 -10 0);
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -10 0);
     }
 
     inlet_3
     {
-        type            fixedValue;
-        value           uniform (0 -15 0);
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -15 0);
     }
 
     inlet_4
     {
-        type            fixedValue;
-        value           uniform (0 -10 0);
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -10 0);
     }
 
     inlet_5
     {
-        type            fixedValue;
-        value           uniform (0 -5 0);
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -5 0);
     }
 
+    inlet_6
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -10 0);
+    }
+
+    inlet_7
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -15 0);
+    }
+
+    inlet_8
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -10 0);
+    }
+
+    inlet_9
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -5 0);
+    }
+
+    inlet_10
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -10 0);
+    }
+
+    inlet_11
+    {
+        type            zeroGradient;
+        //type            fixedValue;
+        //value           uniform (0 -5 0);
+    }
 }
 
 // ************************************************************************* //

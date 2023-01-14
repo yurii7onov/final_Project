@@ -65,6 +65,42 @@ boundaryField
         type            calculated;
         value           uniform 0;
     }
+
+    inlet_6
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    inlet_7
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    inlet_8
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    inlet_9
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    inlet_10
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    inlet_11
+    {
+        type            calculated;
+        value           uniform 0;
+    }
 }
 
 

@@ -16,19 +16,31 @@ FoamFile
 
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform 0;
+internalField   uniform 101325;
 
 boundaryField
 {
     inlet_1
         {
-            type            zeroGradient;
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 15.78;
+                scale 1;
+                level 101450;
+            }
+
         }
 
     outlet
         {
             type            fixedValue;
-            value           uniform 0;
+            value           uniform 101325;
         }
 
     fixedWalls
@@ -43,24 +55,163 @@ boundaryField
 
     inlet_2
         {
-            type            zeroGradient;
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 27.14;
+                scale 1;
+                level 101450;
+            }
         }
 
     inlet_3
         {
-            type            zeroGradient;
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 31.14;
+                scale 1;
+                level 101450;
+            }
         }
 
     inlet_4
         {
-            type            zeroGradient;
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 26.89;
+                scale 1;
+                level 101450;
+            }
         }
 
     inlet_5
         {
-            type            zeroGradient;
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 15.34;
+                scale 1;
+                level 101450;
+            }
         }
 
+    inlet_6
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 27.14;
+                scale 1;
+                level 101450;
+            }
+        }
+
+    inlet_7
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 31.14;
+                scale 1;
+                level 101450;
+            }
+        }
+
+    inlet_8
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 26.89;
+                scale 1;
+                level 101450;
+            }
+        }
+
+    inlet_9
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 15.34;
+                scale 1;
+                level 101450;
+            }
+        }
+
+    inlet_10
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 26.89;
+                scale 1;
+                level 101450;
+            }
+        }
+
+    inlet_11
+        {
+            //type            zeroGradient;
+            //type            fixedValue;
+            //value           uniform 101450;
+            type            uniformFixedValue;
+            uniformValue
+            {
+                type sine;
+                frequency 423.73;
+                amplitude 15.34;
+                scale 1;
+                level 101450;
+            }
+        }
 }
 
 

@@ -195,3 +195,11 @@ paraFoam
 simpleFoam
 paraFoam
 exit
+exit
+blockMesh
+simpleFoam
+paraView
+paraFoam
+blockMesh
+paraFoam
+exit

@@ -17,14 +17,14 @@ FoamFile
 
 dimensions      [0 2 -2 0 0 0 0];
 
-internalField   uniform 0.375;
+internalField   uniform 1.25;
 
 boundaryField
 {
     inlet_1
     {
         type            fixedValue;
-        value           uniform 0.375;
+        value           uniform 0.04315;
     }
     outlet
     {
@@ -33,7 +33,7 @@ boundaryField
     fixedWalls
     {
         type            kqRWallFunction;
-        value           uniform 0.375;
+        value           uniform 0.125;
     }
 
     frontAndBack
@@ -44,25 +44,61 @@ boundaryField
     inlet_2
     {
         type            fixedValue;
-        value           uniform 0.375;
+        value           uniform 0.02455;
     }
 
     inlet_3
     {
         type            fixedValue;
-        value           uniform 0.375;
+        value           uniform 0.01;
     }
 
     inlet_4
     {
         type            fixedValue;
-        value           uniform 0.375;
+        value           uniform 0.02525;
     }
 
     inlet_5
     {
         type            fixedValue;
-        value           uniform 0.375;
+        value           uniform 0.04335;
+    }
+
+    inlet_6
+    {
+        type            fixedValue;
+        value           uniform 0.02455;
+    }
+
+    inlet_7
+    {
+        type            fixedValue;
+        value           uniform 0.01;
+    }
+
+    inlet_8
+    {
+        type            fixedValue;
+        value           uniform 0.02525;
+    }
+
+    inlet_9
+    {
+        type            fixedValue;
+        value           uniform 0.04335;
+    }
+
+    inlet_10
+    {
+        type            fixedValue;
+        value           uniform 0.02525;
+    }
+
+    inlet_11
+    {
+        type            fixedValue;
+        value           uniform 0.04335;
     }
 
 }

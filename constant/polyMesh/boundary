@@ -15,57 +15,93 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-8
+14
 (
     fixedWalls
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          1400;
-        startFace       258600;
+        nFaces          600;
+        startFace       61528;
     }
     frontAndBack
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          260000;
-        startFace       260000;
+        nFaces          62200;
+        startFace       62128;
     }
     inlet_1
     {
         type            patch;
-        nFaces          20;
-        startFace       520000;
+        nFaces          2;
+        startFace       124328;
     }
     inlet_2
     {
         type            patch;
-        nFaces          20;
-        startFace       520020;
+        nFaces          2;
+        startFace       124330;
     }
     inlet_3
     {
         type            patch;
-        nFaces          20;
-        startFace       520040;
+        nFaces          2;
+        startFace       124332;
     }
     inlet_4
     {
         type            patch;
-        nFaces          20;
-        startFace       520060;
+        nFaces          2;
+        startFace       124334;
     }
     inlet_5
     {
         type            patch;
-        nFaces          20;
-        startFace       520080;
+        nFaces          2;
+        startFace       124336;
+    }
+    inlet_6
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124338;
+    }
+    inlet_7
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124340;
+    }
+    inlet_8
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124342;
+    }
+    inlet_9
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124344;
+    }
+    inlet_10
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124346;
+    }
+    inlet_11
+    {
+        type            patch;
+        nFaces          2;
+        startFace       124348;
     }
     outlet
     {
         type            patch;
-        nFaces          1300;
-        startFace       520100;
+        nFaces          722;
+        startFace       124350;
     }
 )
 
